@@ -1,6 +1,15 @@
 public class Camion implements IComun{
+    /**
+     * Constructor
+     */
     public Camion() {
     }
+
+    /**
+     *
+     * @param cp Integer codigo postal
+     * @return coste
+     */
 
     @Override
     public Float costeTotal(Integer cp) {
@@ -9,6 +18,14 @@ public class Camion implements IComun{
         else coste = 6f;
         return coste;
     }
+
+    /**
+     *
+     * @param x dimension eje x
+     * @param y dimension eje y
+     * @param peso del paquete
+     * @return tipo de embalaje a usar
+     */
 
     @Override
     public Integer tipoEmbalaje(Float x, Float y, Float peso) {

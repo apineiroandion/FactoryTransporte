@@ -1,4 +1,16 @@
+/**
+ * @author Angel
+ * Esta aplicacion es un ejemplo de comousar un factory
+ * para ello se crean dos clases, Camion y Bicicleta que implementan una interfaz
+ * Se crea la clase Factory que crea un objeto deltipo de la interfaz que sea instancia de
+ * una de las dos clases en funcion de losparametros introducidos
+ * muestra datos de casa instancia en main para comprobar que el programa funciona
+ */
 public class Main {
+    /**
+     * Main
+     * @param args
+     */
     public static void main(String[] args) {
 
         IComun transporte;
