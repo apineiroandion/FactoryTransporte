@@ -19,4 +19,9 @@ public class TestFactoryTrans {
         Bicicleta bicicleta = new Bicicleta();
         assertNotEquals(FactoryTrans.getTransporte(FactoryTrans.BICICLETA), bicicleta);
     }
+    @Test
+    public void testGetTransporteAssertEqualsCamionRetrunTrue() {
+        Camion camion = new Camion();
+        assertNotEquals(FactoryTrans.getTransporte(FactoryTrans.CAMION), camion);
+    }
 }
